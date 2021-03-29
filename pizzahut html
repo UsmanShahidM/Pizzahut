@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Pizza Delivery & Take-away Near You</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="header-container">
+        <div class="header-box">
+            <div class="header-logo"><img src="ph-logo.png" width="150px"></div>
+            <div class="header-logo-1"><img src="hut-reward.png" width="120px"></div>
+        </div>
+    </div>
+    <div class="banner-1">
+        <img src="banner-1.png">
+        <div class="order-type-box">
+            <div class="delivery">
+                <div><img src="active-bike-ridergif.gif"><p>Delivery</p></div>
+                
+                <div class="dropdown"> 
+                    <select id="city" required>
+                        <option value="select city">Select City</option>
+                        <option value="Lahore">Lahore</option>
+                        <option value="Islamabad">Islamabad</option>
+                        <option value="Abbotabad">Abbotabad</option>
+                        <option value="Karachi">Karachi</option>
+                    </select>
+                </div>
+                <div><a href="pizzahut.html" target="_blank" class="order-btn" type="button">Order Now</a></div>
+                
+            </div>
+            <div class="delivery">
+                <div><img src="active-take-away-image.gif"><p>Take Away</p></div>
+                
+                <div class="dropdown"> 
+                    <select id="city" required>
+                        <option value="Select city">Select City</option>
+                        <option value="Lahore">Lahore</option>
+                        <option value="Islamabad">Islamabad</option>
+                        <option value="Abbotabad">Abbotabad</option>
+                        <option value="Karachi">Karachi</option>
+                    </select>
+                </div>
+                <div><a href="pizzahut.html" target="_blank" class="order-btn" type="button">Order Now</a></div>
+               
+            </div>
+        </div>
+    </div>
+    <div class="section-2">
+        <div class="subsec-1">
+            <p class="text">
+                Our Most Popular Deals 
+            </p>
+        </div>
+        <div class="image-container">
+            <div>
+                <img src="img-1.png">
+            </div>
+            <div>
+                <img src="img-2.jpg">
+            </div>
+        </div>
+        <div class="button">
+            <a href="#top" class="order-btn">View all deals</a>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-nav">
+            <div class="section-nav-1">
+                <p style="font-size: 18px;"><b> About Us</b></p>
+                <ul>
+                    
+                    <li><a href="https://www.pizzahut.com.pk/our-story" >Our Story</a></li>
+                    <li><a href="https://pizzahut.com.pk/franchise/" target="_blank">Become A Franchise</a></li>
+                  </ul>
+            </div>
+            <div class="section-nav-2">
+                <p style="font-size: 18px;"><b> Services</b></p>
+                <ul>
+                    
+                    <li><a href="https://www.pizzahut.com.pk/track-my-order">Track My Order</a></li>
+                    <li><a href="https://www.pizzahut.com.pk/contact-us">Contact Us</a></li>
+                    <li> Locate Us</li>
+                  </ul>
+            </div>
+            <div class="section-nav-3">
+                <p style="font-size: 18px;"><b>Policies</b></p>
+                <ul>
+                    
+                    <li><a href="https://www.pizzahut.com.pk/pizza-hut-privacy-policy">Privacy</a></li>
+                    <li>Terms and Conditions</li>
+                  </ul>
+            </div>
+        </div>
+        <div class="footer-social-icons">
+            <a href="https://www.facebook.com/PizzaHutPak/" target="_blank"><img src="facebook-24.png"></a>
+            <a href="https://twitter.com/PizzaHutPak" target="_blank"><img src="twitter-24.png"></a>
+            <a href="https://www.youtube.com/c/PizzaHutPak" target="_blank"><img src="youtube-6-24.png"></a>
+            <a href="https://www.instagram.com/pizzahutpak/" target="_blank"><img src="instagram-24.png"></a>
+        </div>
+        <div class="trademark">
+            <p style="font-size: 21px;"> &copy; 2020 Pizza Hut, Pakistan Inc. All rights reserved.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
